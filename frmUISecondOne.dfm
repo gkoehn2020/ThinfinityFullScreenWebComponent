@@ -1,0 +1,34 @@
+object SecondForm: TSecondForm
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'SecondForm'
+  ClientHeight = 327
+  ClientWidth = 490
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  Position = poDesigned
+  WindowState = wsMaximized
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlOneHost: TPanel
+    AlignWithMargins = True
+    Left = 3
+    Top = 3
+    Width = 484
+    Height = 321
+    Align = alClient
+    BevelOuter = bvNone
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitLeft = -2
+    ExplicitTop = -2
+  end
+end
